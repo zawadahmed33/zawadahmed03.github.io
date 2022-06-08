@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --fa-style-family: "Font Awesome 6 Pro";
+    --fa-style: 400;
+    --fa-border-color: red;
+    --fa-primary-color: green;
+    --fa-secondary-color: red;
+  }
+
+body {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background: #28283C;
+    justify-content: center;
+    align-items: center;
+}
+
+.social {
+    display: flex;
+    width: 50vw;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.fa-brands {
+    color: #7DF07D;
+}
+
+.fa-solid {
+    color: #7DF07D;
+}
+
+@media only screen and (max-width: 600px) {
+    .social {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 60vh;
+        align-items: center;
+    }
+  }
