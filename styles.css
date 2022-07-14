@@ -16,7 +16,7 @@ body {
     display: flex;
     width: 100vw;
     height: 100vh;
-    background: #28283C;
+    background: #000000;
     justify-content: center;
     align-items: center;
 }
@@ -29,11 +29,11 @@ body {
 }
 
 .fa-brands {
-    color: #7DF07D;
+    color: #ffffff;
 }
 
 .fa-solid {
-    color: #7DF07D;
+    color: #ffffff;
 }
 
 @media only screen and (max-width: 600px) {
